@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+.navbar{
+    /* border: 2px solid #2bd011; */
+    height: 56px;
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    top: 0;;
+    position: fixed;
+    background-color: black;
+    z-index: 20;
+    
+}
+.navbar-left {
+    /* border: 2px solid #2d9621; */
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+}
+         
+.navbarHamberger {
+    /* border: 2px solid #34068e; */
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.navbarYTlogo {
+    /* border: 2px solid #d01111; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.navbar_yTImage{
+    color: red;
+    
+}
+.navbar_ytTitle{
+    font-size: 20px;
+    word-spacing: 0px;
+    letter-spacing: -1px;
+   font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+
+/* ---------------left-number Part ends-------------------- */
+
+.navbar-middle{
+    /* border: 2px solid #d01111; */
+    display: flex;
+   gap: 10px;
+   width: 50%;
+   margin: 0 auto;
+}
+.navbar_searchBox{
+    /* border: 2px solid green; */
+    width: 80%;
+    display: flex;
+    
+
+}
+.navbar_searchInput{
+    border: 2px solid rgb(58,57,57);
+    width: 100%;
+    height: 40px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+   background-color: #121212;
+   color: white;
+   font-size: 16px;
+   padding-left: 30px;
+   &:focus{
+    outline: none;
+   }
+   &::placeholder{
+    font-size: 16px;
+   }
+  
+}
+.navbar_SearchIconBox{
+    /* border: 2px solid #54d011; */
+    width: 70px;
+    background-color: rgb(42,42,42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}
+.navbar_mike{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    /* border: 2px solid #d01111; */
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/*------------------------------navbar middle parts --------ends  */
+.navbar-right{
+    /* border: 2px solid #d01111; */
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    gap: 10px;  
+    position: relative;
+    width:fit-content;
+}
+
+
+.navbar-right-logo{
+    /* border: 2px solid #d01111; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;  
+}
+
+.navbar-modal {
+    position: absolute;
+    top: 40px;
+    width: 103%;
+    z-index: 20;
+   color: white;
+}
+.navbar-modal-option {
+    background-color: rgb(85,85,85);
+    padding: 10px;
+   display: flex;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(34,33,33);
+    }
+}

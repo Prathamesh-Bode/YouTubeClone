@@ -1,0 +1,90 @@
+.videoUpload{
+    padding-top: 56px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    font-family: "oswald",sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: black;
+    color: white;
+    
+}
+.uploadBox{
+ width: 45%;
+ border-radius: 5px;
+ margin-top: 25px;
+ box-shadow: 0.5px 0.5px 8px white;
+}
+.uploadVideoTitle{
+display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+font-size: 28px;
+margin-top: 10px;
+
+}
+    
+.uploadForm{
+   
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+.uploadFormInputs{
+    width: 70%;
+    height: 45px;
+       padding: 0 20px;
+    background-color:#222222;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    
+}
+.uploadBtn{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.uploadBtn-form{
+    border: 1px solid ;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}
+                
+.HomeBtn-form{
+    border: 2px solid;
+     padding: 10px 20px;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}
